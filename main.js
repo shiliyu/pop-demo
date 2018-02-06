@@ -5,7 +5,7 @@ $(clickMe).on('click', function(){
     $(popover).hide()
   }
   
-  $(document).one('click', function(e){
+  $(document).one('click', function(){
     // console.log(e.currentTarget)
     $(popover).hide()
   })
